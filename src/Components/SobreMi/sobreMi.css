@@ -1,0 +1,140 @@
+.contenedorSobreMi{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.contenedorSobreMi .presentacion{
+    padding: 30px;
+}
+
+.contenedorSobreMi .presentacion h2{
+    text-align: start;
+    font-weight: 400;
+    font-size: large;
+}
+.contenedorSobreMi .datosPersonalesEIntereses{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.contenedorSobreMi .datosPersonalesEIntereses .datosPersonales {
+    width: 80%;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contenedorSobreMi .datosPersonalesEIntereses .datosPersonales .tituloDatosPersonales{
+    font-size: larger;
+}
+.contenedorSobreMi .datosPersonalesEIntereses .datosPersonales .datos{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contenedorSobreMi .datosPersonalesEIntereses .intereses{
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contenedorSobreMi .datosPersonalesEIntereses .intereses .tituloIntereses{
+    font-size: larger;
+}
+
+
+.contenedorSobreMi .datosPersonalesEIntereses .intereses .misIntereses{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.contenedorSobreMi .datosPersonalesEIntereses .intereses{
+    padding-left: 10px;
+}
+
+.contenedorSobreMi .datosPersonalesEIntereses .intereses .misIntereses .box{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(245, 245, 245, 0.247);
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+@media (max-width: 915px) {
+    .contenedorSobreMi .datosPersonalesEIntereses{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedorSobreMi .datosPersonalesEIntereses .intereses{
+        padding-right: 0px;
+    }
+}
+.contenedorSobreMi .masSobreMi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding-right: 2rem;
+}
+.contenedorSobreMi .masSobreMi h5{
+    font-size: 17px;
+    padding-left: 30px;
+}
+.contenedorSobreMi .masSobreMi p{
+    padding-left: 30px;
+}
+
+.contenedorSobreMi .redesSobreMi{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding-bottom: 2rem;
+}
+.contenedorSobreMi .redesSobreMi a{
+    animation: tembleke 1s infinite;
+    animation-timing-function: linear;
+}
+
+@media (max-width: 740px){
+    .contenedorSobreMi{
+        padding-top: 1rem;
+    }
+    .contenedorSobreMi .datosPersonalesEIntereses .intereses{
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+    .contenedorSobreMi .masSobreMi{
+        padding-bottom: 1rem;
+    }
+}
+
+@media (min-width: 740px){
+    .redesSobreMi{
+        display: none;
+    }
+    .contenedorSobreMi .redesSobreMi a{
+        display: none;
+    }
+}
