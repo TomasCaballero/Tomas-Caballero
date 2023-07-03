@@ -18,7 +18,7 @@ const Inicio = () => {
     return (
         <div className="contenedorInicio sin-scroll">
             <div className="contenedorVideo">
-                <video className='contendorInicio' src="https://live.staticflickr.com/video/53008925748/9bca33c7fb/1080p.mp4?s=eyJpIjo1MzAwODkyNTc0OCwiZSI6MTY4Nzk3ODg4NiwicyI6IjQ1MTE3MTFiMTkzYjZhOGM4ZTllMWZkYWI0Nzk0M2ZiNWQwYTEyNzciLCJ2IjoxfQ" autoPlay loop muted></video>
+                <video className='contendorInicio' src="https://live.staticflickr.com/video/53008925748/9bca33c7fb/1080p.mp4?s=eyJpIjo1MzAwODkyNTc0OCwiZSI6MTY4ODQxNzk1NiwicyI6ImU5MGI1NDg3ZDg2M2RlZmY5ZDlhNDU4M2U5ZWU1NGVlMTgwNjkxN2EiLCJ2IjoxfQ" autoPlay loop muted></video>
                 <div className="opacidad">
                     <h2>Hola, soy </h2>
                     <h1>Tomás Bautista Caballero</h1>

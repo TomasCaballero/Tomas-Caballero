@@ -151,9 +151,19 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    gap: 5rem;
+    /* flex-wrap: wrap; */
+}
+
+.contenedorPortfolio .contenedorSitios .sitio .tecnologiasUtilizadas p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .contenedorPortfolio .contenedorSitios .sitio .tecnologiasUtilizadas .tecnologias{
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .contenedorPortfolio .contenedorSitios .sitio .tecnologiasUtilizadas .tecnologias ul{
     display: flex;

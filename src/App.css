@@ -20,6 +20,7 @@
 
 .titulo{
   animation: brillo 2.5s linear infinite;
+  font-size: 25px;
 }
 @keyframes brillo {
   0% {
