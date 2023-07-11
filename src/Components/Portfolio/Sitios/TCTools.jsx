@@ -3,7 +3,7 @@
 const TCTools = () => {
     return (
         <div className="sitio">
-            <a className="bannerTc_Tools" href="https://mitechreact-caballero.vercel.app" target="_blank" rel="noopener noreferrer">
+            <a className="bannerTc_Tools" href="https://tc-tools.netlify.app" target="_blank" rel="noopener noreferrer">
 
             </a>
 
