@@ -15,6 +15,7 @@ const Portfolio = () => {
                     <li className='liSitios'><NavLink to="/portfolio/sneaker-nation" className={({isActive}) => isActive ? 'link active' : 'link'}>SNEAKER NATION</NavLink></li>
                     <li className='liSitios'><NavLink to="/portfolio/pokedex" className={({isActive}) => isActive ? 'link active' : 'link'}>POKEDEX</NavLink></li>
                     <li className='liSitios'><NavLink to="/portfolio/hand-off" className={({isActive}) => isActive ? 'link active' : 'link'}>HAND-OFF</NavLink></li>
+                    <li className='liSitios'><NavLink to="/portfolio/tc-tools" className={({isActive}) => isActive ? 'link active' : 'link'}>TC-TOOLS</NavLink></li>
                 </ul>
             </nav>
 
