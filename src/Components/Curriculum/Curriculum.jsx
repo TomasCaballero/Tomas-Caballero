@@ -103,7 +103,7 @@ const Curriculum = () => {
             </div>
 
             <div className="cv">
-                <h3 className='titulo'>Descargar CV: <a href="src\Assets\CV\CV__Tomas_Caballero.pdf" download="CV_Tomas_Caballero" title="Descargar CV"><box-icon type='solid' name='contact' color='#ffffff'></box-icon></a></h3>
+                <h3 className='titulo'>Descargar CV: <a href="src/Assets/CV/CV__Tomas_Caballero.pdf" download="CV_Tomas_Caballero" title="Descargar CV"><box-icon type='solid' name='contact' color='#ffffff'></box-icon></a></h3>
             </div>
         </div>
     )

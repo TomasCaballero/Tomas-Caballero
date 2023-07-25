@@ -82,11 +82,14 @@
 @media (max-width: 915px) {
     .contenedorSobreMi .datosPersonalesEIntereses{
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
     }
+    .contenedorSobreMi .datosPersonalesEIntereses .datosPersonales {
+        padding-left: 0px;
+    }
     .contenedorSobreMi .datosPersonalesEIntereses .intereses{
-        padding-right: 0px;
+        padding-left: 0px;
     }
 }
 .contenedorSobreMi .masSobreMi{
