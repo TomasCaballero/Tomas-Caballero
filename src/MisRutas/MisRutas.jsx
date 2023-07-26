@@ -13,6 +13,7 @@ import HandOff from "../Components/Portfolio/Sitios/HandOff"
 import RutaError from "../Components/RutaError/RutaError"
 import ScrollToTop from "../Components/ScrollToTop/ScrollToTop"
 import TCTools from "../Components/Portfolio/Sitios/TCTools"
+import RickAndMorty from "../Components/Portfolio/Sitios/RickAndMorty"
 
 
 
@@ -41,6 +42,7 @@ const MisRutas = () => {
                             <Route path="pokedex" element={<Pokedex />} />
                             <Route path="hand-off" element={<HandOff />} />
                             <Route path="tc-tools" element={<TCTools />} />
+                            <Route path="rick-and-morty" element={<RickAndMorty/>} />
                         </Route>
                         <Route path="/*" element={<RutaError />} />
                     </Routes>
