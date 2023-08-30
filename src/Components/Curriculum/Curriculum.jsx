@@ -1,4 +1,7 @@
 import './curriculum.css'
+import lenguajesProgramacion from './lenguajesProgramacion'
+import frameworks from './frameworks'
+import herramientas from './herramientas'
 
 
 const Curriculum = () => {
@@ -10,59 +13,48 @@ const Curriculum = () => {
                     <div className="lenguajes">
                         <h3>Lenguajes de programación</h3>
                         <div className="misLenguajes">
-                            <div>
-                                <box-icon name='html5' type='logo' color='#ff6624' size='lg' ></box-icon>
-                                <h4>HTML5</h4>
-                            </div>
-                            <div>
-                                <box-icon name='css3' type='logo' color='#2455ff' size='lg' ></box-icon>
-                                <h4>CSS3</h4>
-                            </div>
-                            <div>
-                                <box-icon name='javascript' type='logo' color='#ffec25' size='lg' ></box-icon>
-                                <h4>JAVASCRIPT</h4>
-                            </div>
+                            {
+                                lenguajesProgramacion.map((leng)=>{
+                                    return (
+                                        <div key={leng.name}>
+                                            <box-icon name={leng.name} type='logo' color={leng.color} size='lg'></box-icon>
+                                            <h4>{leng.nombre}</h4>
+                                        </div>
+                                    )
+                                })
+                            }
                         </div>
                     </div>
                     <div className="lenguajes">
                         <h3>Frameworks y librerias</h3>
                         <div className="misLenguajes">
-                            <div>
-                                <box-icon name='bootstrap' type='logo' color='#9b077a' size='lg'></box-icon>
-                                <h4>BOOTSTRAP</h4>
-                            </div>
-                            <div>
-                                <box-icon name='react' type='logo' color='#36daff' size='lg'></box-icon>
-                                <h4>REACT JS</h4>
-                            </div>
-                            <div>
-                                <box-icon name='sass' type='logo' color='#fd649b' size='lg'></box-icon>
-                                <h4>SASS</h4>
-                            </div>
+                            {
+                                frameworks.map((framework)=>{
+                                    return(
+                                        <div key={framework.name}>
+                                            <box-icon name={framework.name} type='logo' color={framework.color} size='lg'></box-icon>
+                                            <h4>{framework.nombre}</h4>
+                                        </div>
+                                    )
+                                })
+                            }
                         </div>
 
                     </div>
                     <div className="lenguajes">
                         <h3>Herramientas</h3>
                         <div className="misLenguajes">
-                            <div>
-                                <box-icon name='git' type='logo' color='#f26e1b' size='lg'></box-icon>
-                                <h4>GIT</h4>
-                            </div>
-                            <div>
-                                <box-icon name='github' type='logo' size='lg'></box-icon>
-                                <h4>GITHUB</h4>
-                            </div>
-                            <div>
-                                <box-icon name='visual-studio' type='logo' color='#4685ff' size='lg'></box-icon>
-                                <h4>VSC</h4>
-                            </div>
-                            <div>
-                                <box-icon name='figma' type='logo' color='#ff46a4' size='lg'></box-icon>
-                                <h4>FIGMA</h4>
-                            </div>
+                            {
+                                herramientas.map((herramienta)=>{
+                                    return (
+                                        <div key={herramienta.name}>
+                                            <box-icon name={herramienta.name} type='logo' color={herramienta.color} size='lg'></box-icon>
+                                            <h4>{herramienta.nombre}</h4>
+                                        </div>
+                                    )
+                                })
+                            }
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -103,7 +95,7 @@ const Curriculum = () => {
             </div>
 
             <div className="cv">
-                <h3 className='titulo'>Descargar CV: <a href="src/Assets/CV/CV__Tomas_Caballero.pdf" download="CV_Tomas_Caballero" title="Descargar CV"><box-icon type='solid' name='contact' color='#ffffff'></box-icon></a></h3>
+                <h3 className='titulo'>Descargar CV: <a href="https://drive.google.com/file/d/1FB7MWhn6hJmIvRyCWHi6M9nRI1p5jTsP/view?usp=sharing" download="CV_Tomas_Caballero" title="Descargar CV" target="_blank" rel="noopener noreferrer"><box-icon type='solid' name='contact' color='#ffffff'></box-icon></a></h3>
             </div>
         </div>
     )
