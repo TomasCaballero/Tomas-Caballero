@@ -1,4 +1,4 @@
-import './sitios.css'
+
 
 const Pokedex = () => {
     return (

@@ -1,8 +1,49 @@
-import './sitios.css'
+// import sitios from "./sitios"
 
 const Kinefi = () => {
+    // const sitioFiltrado = sitios.filter((nombreComponente) => nombreComponente.nombreComponente === 'Kinefi');
+    // console.log(sitioFiltrado)
     return (
         <div className="sitio">
+            {/* {
+                sitioFiltrado.map((sitio) => {
+                    return (
+                        <div className="sitio" key={sitio.nombreComponente}>
+                            <a className={sitio.classBanner} href={sitio.imgBanner} target="_blank" rel="noopener noreferrer">
+
+                            </a>
+
+                            <div className="descripcionSitio">
+                                <p><strong>{sitio.nombreComponente} </strong>{sitio.descripcion}</p>
+                            </div>
+
+                            <div className="tecnologiasUtilizadas">
+                                <p><strong>Para el desarrollo de este sitio utilice:</strong></p>
+                                <div className="tecnologias">
+                                    <ul>
+                                        {
+                                            sitio.tecnologias.map((tecno) => {
+                                                return (
+                                                    <li key={tecno.nombre}>
+                                                        <box-icon name={tecno.name} type='logo' color={tecno.color} size='lg' ></box-icon>
+                                                        <h6>{tecno.nombre}</h6>
+                                                    </li>
+                                                )
+                                            })
+                                        }
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div className="linksSitio">
+                                <a href={sitio.linkSitio} target="_blank" rel="noopener noreferrer"><strong>Link al Sitio <box-icon name='link-alt' color='#ffffff'></box-icon></strong></a>
+                                <a href={sitio.linkRepo} target="_blank" rel="noopener noreferrer"><strong>Link al Repositorio <box-icon name='link-alt' color='#ffffff'></box-icon></strong></a>
+                            </div>
+                        </div>
+
+                    )
+                })
+            } */}
             <a className="bannerSitioKinefi" href="https://tomascaballero.github.io/Kinefi_Caballero/" target="_blank" rel="noopener noreferrer">
 
             </a>

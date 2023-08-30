@@ -37,7 +37,7 @@ const SobreMi = () => {
 
             <div className="masSobreMi">
                 <h5>Acerca de mis proyectos:</h5>
-                <p>Trabaje en diversos proyectos, ya sean proyectos personales o proyectos solicitados por las plataformas de aprendiazaje donde estudie y aprendí a programar. En los proyectos en los que trabaje me propuse crear sitios responsive, con buena optimización en motores de búsqueda.</p>
+                <p>Trabaje en diversos proyectos, ya sean proyectos personales o proyectos solicitados por las plataformas de aprendizaje donde estudie y aprendí a programar. En los proyectos en los que trabaje me propuse crear sitios responsive, con buena optimización en motores de búsqueda.</p>
             </div>
 
             <div className="redesSobreMi">

@@ -1,4 +1,4 @@
-import './sitios.css'
+
 
 const MiTech = () => {
     return (
@@ -8,7 +8,7 @@ const MiTech = () => {
             </a>
 
             <div className="descripcionSitio">
-                <p><strong>MiTech </strong> es el resultado de mi proyecto final del curso de React JS en CoderHouse. Es un e-commerce de celulares, los cuales pueden ser filtrados por marca. Al seleccionar un telefono se puede acceder a las caracteristicas de dicho celular y al agregarlo al carrito tambien se guarda en el almacenamiento local. Al ingresar al carrito, el cual es un Offcanvas de Bootstrap, se muestran los productos que contiene y que pueden ser eliminados. Al finalizar la compra se le piden ciertos datos al comprador, el cual va a recibir un codigo de orden de compra.</p>
+                <p><strong>MiTech </strong> es el resultado de mi proyecto final del curso de React JS en CoderHouse. Es un e-commerce de celulares, los cuales pueden ser filtrados por marca. Al seleccionar un teléfono se puede acceder a las características de dicho celular y al agregarlo al carrito también se guarda en el almacenamiento local. Al ingresar al carrito, el cual es un Offcanvas de Bootstrap, se muestran los productos que contiene y que pueden ser eliminados. Al finalizar la compra se le piden ciertos datos al comprador, el cual va a recibir un código de orden de compra.</p>
             </div>
 
             <div className="tecnologiasUtilizadas">

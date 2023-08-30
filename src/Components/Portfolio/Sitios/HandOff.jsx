@@ -1,4 +1,4 @@
-import './sitios.css'
+
 
 const HandOff = () => {
     return (
@@ -8,7 +8,7 @@ const HandOff = () => {
             </a>
 
             <div className="descripcionSitio">
-                <p><strong>Hand-off </strong> es un sitio creado para transmitirle a los/as jugadores/as de Rugby como se debe realizar la tecnica de evacion hand-off. Fue utilizado como presentación de un trabajo de investigación de la Universidad de Buenos Aires de la carrera en Licenciatura en Kinesiología y Fisiatría.</p>
+                <p><strong>Hand-off </strong> es un sitio creado para transmitirle a los/as jugadores/as de Rugby como se debe realizar la técnica de evaluación hand-off. Fue utilizado como presentación de un trabajo de investigación de la Universidad de Buenos Aires de la carrera en Licenciatura en Kinesiología y Fisiatría.</p>
             </div>
 
             <div className="tecnologiasUtilizadas">

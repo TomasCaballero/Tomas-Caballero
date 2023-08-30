@@ -8,7 +8,7 @@ const TCTools = () => {
             </a>
 
             <div className="descripcionSitio">
-                <p><strong>Tc-Tools </strong> surgio como un proyecto personal con el objetivo de poner en practica y mejorar mis habilidades de maquetado, diseño y la utilizacion de react. Es un sitio que prensenta algunas de las herramientas que utilizo en el desarrollo web y que le pueden ser utiles a las personas que visiten Tc-Tools.</p>
+                <p><strong>Tc-Tools </strong> surgió como un proyecto personal con el objetivo de poner en practica y mejorar mis habilidades de maquetado, diseño y la utilización de react. Es un sitio que presenta algunas de las herramientas que utilizo en el desarrollo web y que le pueden ser útiles a las personas que visiten Tc-Tools.</p>
             </div>
 
             <div className="tecnologiasUtilizadas">

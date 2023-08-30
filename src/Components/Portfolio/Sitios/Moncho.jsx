@@ -1,4 +1,4 @@
-import './sitios.css'
+
 
 const Moncho = () => {
     return (
@@ -8,7 +8,7 @@ const Moncho = () => {
             </a>
 
             <div className="descripcionSitio">
-                <p><strong>MonchoClothing </strong> es el resultado de mi proyecto final del curso de JavaScript en CoderHouse. Moncho es un e-commerce donde se pueden comprar buzos y remeras, los cuales puedes filtrar si es que estas buscando un producto especifico. Los productos que se agregan al carrito se almacenan en el almacenamiento local para no perder productos seleccionados. Al finalizaar la compra se hace uso de la PokeApi para regalarle un Pokemon al comprador.</p>
+                <p><strong>MonchoClothing </strong> es el resultado de mi proyecto final del curso de JavaScript en CoderHouse. Moncho es un e-commerce donde se pueden comprar buzos y remeras, los cuales puedes filtrar si es que estas buscando un producto especifico. Los productos que se agregan al carrito se almacenan en el almacenamiento local para no perder productos seleccionados. Al finalizar la compra se hace uso de la PokeApi para regalarle un Pokemon al comprador.</p>
             </div>
 
             <div className="tecnologiasUtilizadas">
