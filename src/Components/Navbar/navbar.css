@@ -30,7 +30,7 @@
 }
 .contenedorImg:hover .miFoto{
     transition: all 1000ms ease-in-out;
-    box-shadow: 0 0 100px -5px white;
+    box-shadow: 0 0 50px -5px rgba(255, 255, 255, 0.585);
 }
 
 .contenedorNavbar .navbar{
