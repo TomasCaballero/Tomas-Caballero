@@ -2,6 +2,7 @@ import './curriculum.css'
 import lenguajesProgramacion from './lenguajesProgramacion'
 import frameworks from './frameworks'
 import herramientas from './herramientas'
+import Transitions from '../../Transitions/Transitions'
 
 
 const Curriculum = () => {
@@ -101,4 +102,4 @@ const Curriculum = () => {
     )
 }
 
-export default Curriculum
+export default Transitions(Curriculum)

@@ -1,4 +1,5 @@
 import './sobreMi.css'
+import Transitions from '../../Transitions/Transitions'
 
 const SobreMi = () => {
     return (
@@ -49,4 +50,4 @@ const SobreMi = () => {
     )
 }
 
-export default SobreMi
+export default Transitions(SobreMi)

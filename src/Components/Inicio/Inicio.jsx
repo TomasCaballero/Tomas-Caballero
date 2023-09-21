@@ -1,9 +1,13 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import Transitions from '../../Transitions/Transitions';
 import './inicio.css';
 
 const Inicio = () => {
-    const urlVideo = 'https://live.staticflickr.com/video/53153562974/5d6712ac16/1080p.mp4?s=eyJpIjo1MzE1MzU2Mjk3NCwiZSI6MTY5MzQ0MDc1NiwicyI6Ijk0ZGY5YWQ3ZTIxNDJhZDE5OWU2NWE5ZTc2YTc4Y2VmNGI5MTBmM2QiLCJ2IjoxfQ'
+    const [video, setVideo] = useState('');
+    const urlVideo = 'https://live.staticflickr.com/video/53008925748/9bca33c7fb/1080p.mp4?s=eyJpIjo1MzAwODkyNTc0OCwiZSI6MTY5NTMyNTk2MCwicyI6IjgwNzkwZmRmYThkMWJiYThiMDRmZWE5Y2UxZTFmYjc1YjZmYTZjZDQiLCJ2IjoxfQ'
     useEffect(() => {
+        setVideo(urlVideo);
+        console.log(video)
         const disableScroll = (event) => {
             event.preventDefault();
         };
@@ -19,7 +23,7 @@ const Inicio = () => {
     return (
         <div className="contenedorInicio sin-scroll">
             <div className="contenedorVideo">
-                <video className='contendorInicio' src={urlVideo} autoPlay loop muted ></video>
+                <video className='contendorInicio' src={video} autoPlay loop muted ></video>
                 <div className="opacidad">
                     <h2>Hola, soy </h2>
                     <h1>Tomás Bautista Caballero</h1>
@@ -30,4 +34,4 @@ const Inicio = () => {
     );
 }
 
-export default Inicio;
+export default Transitions(Inicio);

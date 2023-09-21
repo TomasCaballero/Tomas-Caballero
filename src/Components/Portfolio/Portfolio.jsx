@@ -1,5 +1,6 @@
 import { NavLink, Outlet } from 'react-router-dom'
 import './portfolio.css'
+import Transitions from '../../Transitions/Transitions'
 // import sitios from './Sitios/sitios'
 
 
@@ -28,4 +29,4 @@ const Portfolio = () => {
     )
 }
 
-export default Portfolio
+export default Transitions(Portfolio)
