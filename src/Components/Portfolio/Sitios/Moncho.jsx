@@ -1,3 +1,4 @@
+import { IconBrandCss3, IconBrandHtml5, IconBrandJavascript, IconBrandSass } from "@tabler/icons-react"
 
 
 const Moncho = () => {
@@ -16,18 +17,19 @@ const Moncho = () => {
                 <div className="tecnologias">
                     <ul>
                         <li>
-                            <box-icon name='html5' type='logo' color='#ff6624' size='lg' ></box-icon>
+                            <IconBrandHtml5 color='#E5532D' size={46} stroke={1}/>
                             <h6>HTML5</h6>
                         </li>
-                        <li><box-icon name='css3' type='logo' color='#2455ff' size='lg' ></box-icon>
+                        <li>
+                            <IconBrandCss3 color='#2D53E5' size={46} stroke={1} />
                             <h6>CSS3</h6>
                         </li>
                         <li>
-                            <box-icon name='sass' type='logo' color='#fd649b' size='lg'></box-icon>
+                            <IconBrandSass color='#CF6B9D' size={46} stroke={1}/>
                             <h6>SASS</h6>
                         </li>
                         <li>
-                            <box-icon name='javascript' type='logo' color='#ffec25' size='lg' ></box-icon>
+                            <IconBrandJavascript color='#F7E025' size={46} stroke={1}/>
                             <h6>JAVASCRIPT</h6>
                         </li>
                     </ul>

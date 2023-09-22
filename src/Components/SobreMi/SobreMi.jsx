@@ -1,6 +1,8 @@
 import './sobreMi.css'
 import Transitions from '../../Transitions/Transitions'
+import { IconBrandGithub, IconBrandLinkedin, IconBrandWhatsapp, IconCamera, IconCpu, IconDeviceGamepad2, IconHeadphones, IconPlane, IconSoccerField } from '@tabler/icons-react'
 
+// eslint-disable-next-line react-refresh/only-export-components
 const SobreMi = () => {
     return (
         <div className='contenedorSobreMi'>
@@ -26,12 +28,12 @@ const SobreMi = () => {
                         Intereses:
                     </h4>
                     <div className="misIntereses">
-                        <div className="tecnologia box"><box-icon type='solid' name='devices'></box-icon>Tecnología</div>
-                        <div className="musica box"><box-icon name='headphone' ></box-icon>Música</div>
-                        <div className="deportes box"><box-icon name='football' ></box-icon>Deportes</div>
-                        <div className="fotografia box"><box-icon name='camera' type='solid' ></box-icon>Fotografía</div>
-                        <div className="viajar box"><box-icon name='plane-alt' type='solid' ></box-icon>Viajar</div>
-                        <div className="juegos box"><box-icon name='joystick-alt' ></box-icon>Juegos</div>
+                        <div className="tecnologia box"><IconCpu color='#F1F1F1' size={32} stroke={1}/>Tecnología</div>
+                        <div className="musica box"><IconHeadphones color='#F1F1F1' size={32} stroke={1}/>Música</div>
+                        <div className="deportes box"><IconSoccerField color='#F1F1F1' size={32} stroke={1}/>Deportes</div>
+                        <div className="fotografia box"><IconCamera color='#F1F1F1' size={32} stroke={1}/>Fotografía</div>
+                        <div className="viajar box"><IconPlane color='#F1F1F1' size={32} stroke={1}/>Viajar</div>
+                        <div className="juegos box"><IconDeviceGamepad2 color='#F1F1F1' size={32} stroke={1}/>Juegos</div>
                     </div>
                 </div>
             </div>
@@ -42,12 +44,13 @@ const SobreMi = () => {
             </div>
 
             <div className="redesSobreMi">
-                <a href='https://www.linkedin.com/in/tomás-bautista-caballero/' target="_blank" rel="noopener noreferrer"><box-icon name='linkedin' type='logo' color='#1555cb' size='md'></box-icon></a>
-                <a href='https://github.com/TomasCaballero' target="_blank" rel="noopener noreferrer"><box-icon name='github' type='logo' color='#ffffff' size='md'></box-icon></a>
-                <a href='https://wa.me/+541140720020' target="_blank" rel="noopener noreferrer"><box-icon name='whatsapp' type='logo' color='#2ba813' size='md'></box-icon></a>
+                <a href='https://www.linkedin.com/in/tomás-bautista-caballero/' target="_blank" rel="noopener noreferrer"><IconBrandLinkedin color='#086B9C' size={42} stroke={2}/></a>
+                <a href='https://github.com/TomasCaballero' target="_blank" rel="noopener noreferrer"><IconBrandGithub color='#F1F1F1' size={42} stroke={2}/></a>
+                <a href='https://wa.me/+541140720020' target="_blank" rel="noopener noreferrer"><IconBrandWhatsapp color='#2CD46B' size={42} stroke={2}/></a>
             </div>
         </div>
     )
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default Transitions(SobreMi)

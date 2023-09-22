@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import Transitions from '../../Transitions/Transitions';
 import './inicio.css';
 
+// eslint-disable-next-line react-refresh/only-export-components
 const Inicio = () => {
     const [video, setVideo] = useState('');
     const urlVideo = 'https://live.staticflickr.com/video/53008925748/9bca33c7fb/1080p.mp4?s=eyJpIjo1MzAwODkyNTc0OCwiZSI6MTY5NTMyNTk2MCwicyI6IjgwNzkwZmRmYThkMWJiYThiMDRmZWE5Y2UxZTFmYjc1YjZmYTZjZDQiLCJ2IjoxfQ'
@@ -18,6 +19,7 @@ const Inicio = () => {
         return () => {
             container.removeEventListener('wheel', disableScroll);
         };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return (
@@ -34,4 +36,5 @@ const Inicio = () => {
     );
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default Transitions(Inicio);

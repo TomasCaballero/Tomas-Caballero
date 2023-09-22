@@ -1,3 +1,4 @@
+import { IconBrandBootstrap, IconBrandCss3, IconBrandHtml5, IconBrandSass } from "@tabler/icons-react"
 
 
 const HandOff = () => {
@@ -16,14 +17,19 @@ const HandOff = () => {
                 <div className="tecnologias">
                     <ul>
                         <li>
-                            <box-icon name='html5' type='logo' color='#ff6624' size='lg' ></box-icon>
+                            <IconBrandHtml5 color='#E5532D' size={46} stroke={1}/>
                             <h6>HTML5</h6>
                         </li>
-                        <li><box-icon name='css3' type='logo' color='#2455ff' size='lg' ></box-icon>
+                        <li>
+                            <IconBrandCss3 color='#2D53E5' size={46} stroke={1} />
                             <h6>CSS3</h6>
                         </li>
                         <li>
-                            <box-icon name='sass' type='logo' color='#fd649b' size='lg'></box-icon>
+                            <IconBrandBootstrap color='#8F1BFC' size={46} stroke={1}/>
+                            <h6>BOOTSTRAP</h6>
+                        </li>
+                        <li>
+                            <IconBrandSass color='#CF6B9D' size={46} stroke={1}/>
                             <h6>SASS</h6>
                         </li>
                     </ul>

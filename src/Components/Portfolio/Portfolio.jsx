@@ -4,6 +4,7 @@ import Transitions from '../../Transitions/Transitions'
 // import sitios from './Sitios/sitios'
 
 
+// eslint-disable-next-line react-refresh/only-export-components
 const Portfolio = () => {
     return (
         <div className='contenedorPortfolio'>
@@ -29,4 +30,5 @@ const Portfolio = () => {
     )
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default Transitions(Portfolio)

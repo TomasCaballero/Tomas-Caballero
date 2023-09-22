@@ -1,10 +1,9 @@
 import './curriculum.css'
-import lenguajesProgramacion from './lenguajesProgramacion'
-import frameworks from './frameworks'
-import herramientas from './herramientas'
 import Transitions from '../../Transitions/Transitions'
+import { IconBrandBootstrap, IconBrandCss3, IconBrandFigma, IconBrandFirebase, IconBrandFramerMotion, IconBrandGit, IconBrandGithub, IconBrandHtml5, IconBrandJavascript, IconBrandMongodb, IconBrandMysql, IconBrandNodejs, IconBrandReact, IconBrandSass, IconBrandTypescript, IconBrandVscode, IconFileCv, IconSql } from '@tabler/icons-react'
 
 
+// eslint-disable-next-line react-refresh/only-export-components
 const Curriculum = () => {
     return (
         <div className="contenedorCurriculum">
@@ -14,47 +13,86 @@ const Curriculum = () => {
                     <div className="lenguajes">
                         <h3>Lenguajes de programación</h3>
                         <div className="misLenguajes">
-                            {
-                                lenguajesProgramacion.map((leng)=>{
-                                    return (
-                                        <div key={leng.name}>
-                                            <box-icon name={leng.name} type='logo' color={leng.color} size='lg'></box-icon>
-                                            <h4>{leng.nombre}</h4>
-                                        </div>
-                                    )
-                                })
-                            }
+                            <div >
+                                <IconBrandHtml5 color='#E5532D' size={46} stroke={1}/>
+                                <h4>HTML5</h4>
+                            </div>
+                            <div >
+                                <IconBrandCss3 color='#2D53E5' size={46} stroke={1} />
+                                <h4>CSS5</h4>
+                            </div>
+                            <div >
+                                <IconBrandJavascript color='#F7E025' size={46} stroke={1}/>
+                                <h4>JAVASCRIPT</h4>
+                            </div>
+                            <div >
+                                <IconBrandTypescript color='#377CC8' size={46} stroke={1}/>
+                                <h4>TYPESCRIPT</h4>
+                            </div>
+                            <div >
+                                <IconBrandNodejs color='#80D041' size={46} stroke={1}/>
+                                <h4>NODE JS</h4>
+                            </div>
+                            <div>
+                                <IconSql color='#085576' size={46} stroke={1}/>
+                                <h4>SQL</h4>
+                            </div>
                         </div>
                     </div>
+
                     <div className="lenguajes">
                         <h3>Frameworks y librerias</h3>
                         <div className="misLenguajes">
-                            {
-                                frameworks.map((framework)=>{
-                                    return(
-                                        <div key={framework.name}>
-                                            <box-icon name={framework.name} type='logo' color={framework.color} size='lg'></box-icon>
-                                            <h4>{framework.nombre}</h4>
-                                        </div>
-                                    )
-                                })
-                            }
+                            <div>
+                                <IconBrandBootstrap color='#8F1BFC' size={46} stroke={1}/>
+                                <h4>BOOTSTRAP</h4>
+                            </div>
+                            <div>
+                                <IconBrandSass color='#CF6B9D' size={46} stroke={1}/>
+                                <h4>SASS</h4>
+                            </div>
+                            <div>
+                                <IconBrandReact color='#66DBFB' size={46} stroke={1}/>
+                                <h4>REACT JS</h4>
+                            </div>
+                            <div>
+                                <IconBrandFramerMotion color='#F009BB' size={46} stroke={1}/>
+                                <h4>FRAMER-MOTION</h4>
+                            </div>
+                            <div>
+                                <IconBrandMysql color='#08668E' size={46} stroke={1}/>
+                                <h4>MYSQL</h4>
+                            </div>
+                            <div>
+                                <IconBrandMongodb color='#17AD55' size={46} stroke={1}/>
+                                <h4>MONGO DB</h4>
+                            </div>
+                            <div>
+                                <IconBrandFirebase color='#FFA917' size={46} stroke={1}/>
+                                <h4>FIREBASE</h4>
+                            </div>
                         </div>
 
                     </div>
                     <div className="lenguajes">
                         <h3>Herramientas</h3>
                         <div className="misLenguajes">
-                            {
-                                herramientas.map((herramienta)=>{
-                                    return (
-                                        <div key={herramienta.name}>
-                                            <box-icon name={herramienta.name} type='logo' color={herramienta.color} size='lg'></box-icon>
-                                            <h4>{herramienta.nombre}</h4>
-                                        </div>
-                                    )
-                                })
-                            }
+                            <div>
+                                <IconBrandGit color='#F1553A' size={46} stroke={1}/>
+                                <h4>GIT</h4>
+                            </div>
+                            <div>
+                                <IconBrandGithub color='#080808' size={46} stroke={1}/>
+                                <h4>GITHUB</h4>
+                            </div>
+                            <div>
+                                <IconBrandVscode color='#44ADF3' size={46} stroke={1}/>
+                                <h4>VSCODE</h4>
+                            </div>
+                            <div>
+                                <IconBrandFigma color='#FF7667' size={46} stroke={1}/>
+                                <h4>FIGMA</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -96,10 +134,11 @@ const Curriculum = () => {
             </div>
 
             <div className="cv">
-                <h3 className='titulo'>Descargar CV: <a href="https://drive.google.com/file/d/1FB7MWhn6hJmIvRyCWHi6M9nRI1p5jTsP/view?usp=sharing" download="CV_Tomas_Caballero" title="Descargar CV" target="_blank" rel="noopener noreferrer"><box-icon type='solid' name='contact' color='#ffffff'></box-icon></a></h3>
+                <h3 className='titulo'>Descargar CV: <a href="https://drive.google.com/file/d/1FB7MWhn6hJmIvRyCWHi6M9nRI1p5jTsP/view?usp=sharing" download="CV_Tomas_Caballero" title="Descargar CV" target="_blank" rel="noopener noreferrer"><IconFileCv color='#F1F1F1' size={40} stroke={1}/></a></h3>
             </div>
         </div>
     )
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default Transitions(Curriculum)

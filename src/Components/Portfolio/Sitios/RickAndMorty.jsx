@@ -1,3 +1,4 @@
+import { IconBrandCss3, IconBrandHtml5, IconBrandJavascript, IconBrandReact } from "@tabler/icons-react"
 
 
 const RickAndMorty = () => {
@@ -15,19 +16,20 @@ const RickAndMorty = () => {
                 <p><strong>Para el desarrollo de este sitio utilice:</strong></p>
                 <div className="tecnologias">
                     <ul>
-                        <li>
-                            <box-icon name='html5' type='logo' color='#ff6624' size='lg' ></box-icon>
+                    <li>
+                            <IconBrandHtml5 color='#E5532D' size={46} stroke={1}/>
                             <h6>HTML5</h6>
                         </li>
-                        <li><box-icon name='css3' type='logo' color='#2455ff' size='lg' ></box-icon>
+                        <li>
+                            <IconBrandCss3 color='#2D53E5' size={46} stroke={1} />
                             <h6>CSS3</h6>
                         </li>
                         <li>
-                            <box-icon name='javascript' type='logo' color='#ffec25' size='lg' ></box-icon>
+                            <IconBrandJavascript color='#F7E025' size={46} stroke={1}/>
                             <h6>JAVASCRIPT</h6>
                         </li>
                         <li>
-                            <box-icon name='react' type='logo' color='#36daff' size='lg'></box-icon>
+                            <IconBrandReact color='#66DBFB' size={46} stroke={1}/>
                             <h6>REACT JS</h6>
                         </li>
                     </ul>
