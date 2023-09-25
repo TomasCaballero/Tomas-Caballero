@@ -113,7 +113,8 @@
     align-items: center;
     justify-content: center;
     gap: 5rem;
-    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
 }
 .contenedorSobreMi .redesSobreMi a{
     animation: tembleke 1s infinite;
