@@ -13,6 +13,7 @@ import HandOff from "../Components/Portfolio/Sitios/HandOff"
 import TCTools from "../Components/Portfolio/Sitios/TCTools"
 import RickAndMorty from "../Components/Portfolio/Sitios/RickAndMorty"
 import RutaError from "../Components/RutaError/RutaError"
+import DCM from "../Components/Portfolio/Sitios/DCM"
 
 
 const AnimatedRoutes = () => {
@@ -35,6 +36,7 @@ const AnimatedRoutes = () => {
                     <Route path="hand-off" element={<HandOff />} />
                     <Route path="tc-tools" element={<TCTools />} />
                     <Route path="rick-and-morty" element={<RickAndMorty />} />
+                    <Route path="dcm" element={<DCM />} />
                 </Route>
                 <Route path="/*" element={<RutaError />} />
             </Routes>

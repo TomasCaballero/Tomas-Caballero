@@ -20,6 +20,7 @@ const Portfolio = () => {
                     <li className='liSitios'><NavLink to="/portfolio/rick-and-morty" className={({isActive}) => isActive ? 'link active' : 'link'}>RICK & MORTY</NavLink></li>
                     <li className='liSitios'><NavLink to="/portfolio/hand-off" className={({isActive}) => isActive ? 'link active' : 'link'}>HAND-OFF</NavLink></li>
                     <li className='liSitios'><NavLink to="/portfolio/tc-tools" className={({isActive}) => isActive ? 'link active' : 'link'}>TC-TOOLS</NavLink></li>
+                    <li className='liSitios'><NavLink to="/portfolio/dcm" className={({isActive}) => isActive ? 'link active' : 'link'}>DCM</NavLink></li>
                 </ul>
             </nav>
 
