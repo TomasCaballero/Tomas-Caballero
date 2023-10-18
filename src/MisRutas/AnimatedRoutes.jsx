@@ -14,6 +14,7 @@ import TCTools from "../Components/Portfolio/Sitios/TCTools"
 import RickAndMorty from "../Components/Portfolio/Sitios/RickAndMorty"
 import RutaError from "../Components/RutaError/RutaError"
 import DCM from "../Components/Portfolio/Sitios/DCM"
+import TomvsGalery from "../Components/Portfolio/Sitios/TomvsGalery"
 
 
 const AnimatedRoutes = () => {
@@ -37,6 +38,7 @@ const AnimatedRoutes = () => {
                     <Route path="tc-tools" element={<TCTools />} />
                     <Route path="rick-and-morty" element={<RickAndMorty />} />
                     <Route path="dcm" element={<DCM />} />
+                    <Route path="tomvs" element={<TomvsGalery />} />
                 </Route>
                 <Route path="/*" element={<RutaError />} />
             </Routes>

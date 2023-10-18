@@ -16,11 +16,11 @@ const Portfolio = () => {
                     <li className='liSitios'><NavLink to="/portfolio/moncho-clothing" className={({isActive}) => isActive ? 'link active' : 'link'}>MONCHO CLOTHING</NavLink></li>
                     <li className='liSitios'><NavLink to="/portfolio/mi-tech" className={({isActive}) => isActive ? 'link active' : 'link'}>MI TECH</NavLink></li>
                     <li className='liSitios'><NavLink to="/portfolio/sneaker-nation" className={({isActive}) => isActive ? 'link active' : 'link'}>SNEAKER NATION</NavLink></li>
-                    {/* <li className='liSitios'><NavLink to="/portfolio/pokedex" className={({isActive}) => isActive ? 'link active' : 'link'}>POKEDEX</NavLink></li> */}
                     <li className='liSitios'><NavLink to="/portfolio/rick-and-morty" className={({isActive}) => isActive ? 'link active' : 'link'}>RICK & MORTY</NavLink></li>
                     <li className='liSitios'><NavLink to="/portfolio/hand-off" className={({isActive}) => isActive ? 'link active' : 'link'}>HAND-OFF</NavLink></li>
                     <li className='liSitios'><NavLink to="/portfolio/tc-tools" className={({isActive}) => isActive ? 'link active' : 'link'}>TC-TOOLS</NavLink></li>
                     <li className='liSitios'><NavLink to="/portfolio/dcm" className={({isActive}) => isActive ? 'link active' : 'link'}>DCM</NavLink></li>
+                    <li className='liSitios'><NavLink to="/portfolio/tomvs" className={({isActive}) => isActive ? 'link active' : 'link'}>TOMVS</NavLink></li>
                 </ul>
             </nav>
 
