@@ -1,21 +1,22 @@
 import { IconBrandCss3, IconBrandHtml5, IconBrandJavascript, IconBrandReact } from "@tabler/icons-react"
 
 
-const TomvsGalery = () => {
-<div className="sitio">
-            <a className="bannerSitioTomvs" href="https://tomascaballero.github.io/DigaloConMimica/" target="_blank" rel="noopener noreferrer">
+const TOMVS = () => {
+    return (
+        <div className="sitio">
+            <a className="bannerSitioTomvs" href="https://tomvs-galery.netlify.app/" target="_blank" rel="noopener noreferrer">
 
             </a>
 
             <div className="descripcionSitio">
-                <p><strong>Tomvs-Galery</strong> es un sitio para jugar al dígalo con mímica con amigos, contiene mas de 500 títulos de películas.</p>
+                <p><strong>TOMVS</strong> es un sitio web creado para mostrar mis álbumes de fotos, las cuales pueden ser descargadas en su máxima calidad.</p>
             </div>
 
             <div className="tecnologiasUtilizadas">
                 <p><strong>Para el desarrollo de este sitio utilice:</strong></p>
                 <div className="tecnologias">
                     <ul>
-                        <li>
+                    <li>
                             <IconBrandHtml5 color='#E5532D' size={46} stroke={1}/>
                             <h6>HTML5</h6>
                         </li>
@@ -36,10 +37,12 @@ const TomvsGalery = () => {
             </div>
 
             <div className="linksSitio">
-                <a href="https://tomascaballero.github.io/DigaloConMimica/" target="_blank" rel="noopener noreferrer"><strong>Link al Sitio <box-icon name='link-alt' color='#ffffff'></box-icon></strong></a>
-                <a href="https://github.com/TomasCaballero/DigaloConMimica" target="_blank" rel="noopener noreferrer"><strong>Link al Repositorio <box-icon name='link-alt' color='#ffffff'></box-icon></strong></a>
+                <a href="https://tomvs-galery.netlify.app/" target="_blank" rel="noopener noreferrer"><strong>Link al Sitio <box-icon name='link-alt' color='#ffffff'></box-icon></strong></a>
+                <a href="https://github.com/TomasCaballero/tomvs-galery" target="_blank" rel="noopener noreferrer"><strong>Link al Repositorio <box-icon name='link-alt' color='#ffffff'></box-icon></strong></a>
             </div>
         </div>
+    )
 }
 
-export default TomvsGalery
+// eslint-disable-next-line react-refresh/only-export-components
+export default TOMVS

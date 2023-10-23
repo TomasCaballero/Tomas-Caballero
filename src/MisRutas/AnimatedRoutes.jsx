@@ -8,13 +8,12 @@ import Kinefi from "../Components/Portfolio/Sitios/Kinefi"
 import Moncho from "../Components/Portfolio/Sitios/Moncho"
 import MiTech from "../Components/Portfolio/Sitios/MiTech"
 import SneakerNation from "../Components/Portfolio/Sitios/SneakerNation"
-import Pokedex from "../Components/Portfolio/Sitios/Pokedex"
 import HandOff from "../Components/Portfolio/Sitios/HandOff"
 import TCTools from "../Components/Portfolio/Sitios/TCTools"
 import RickAndMorty from "../Components/Portfolio/Sitios/RickAndMorty"
 import RutaError from "../Components/RutaError/RutaError"
 import DCM from "../Components/Portfolio/Sitios/DCM"
-import TomvsGalery from "../Components/Portfolio/Sitios/TomvsGalery"
+import TOMVS from "../Components/Portfolio/Sitios/TOMVS"
 
 
 const AnimatedRoutes = () => {
@@ -33,12 +32,11 @@ const AnimatedRoutes = () => {
                     <Route path="moncho-clothing" element={<Moncho />} />
                     <Route path="mi-tech" element={<MiTech />} />
                     <Route path="sneaker-nation" element={<SneakerNation />} />
-                    <Route path="pokedex" element={<Pokedex />} />
                     <Route path="hand-off" element={<HandOff />} />
                     <Route path="tc-tools" element={<TCTools />} />
                     <Route path="rick-and-morty" element={<RickAndMorty />} />
                     <Route path="dcm" element={<DCM />} />
-                    <Route path="tomvs" element={<TomvsGalery />} />
+                    <Route path="tomvs" element={<TOMVS/>}/>
                 </Route>
                 <Route path="/*" element={<RutaError />} />
             </Routes>
