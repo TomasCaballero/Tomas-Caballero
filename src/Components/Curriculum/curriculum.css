@@ -121,8 +121,8 @@
 
 .contenedorCurriculum .estudios .misEstudios .estudioss ul li .ortLogo {
     position: relative;
-    top: 15px;
-    width: 70px;
+    top: 10px;
+    width: 50px;
 }
 
 @media (max-width: 925px) {
