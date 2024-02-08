@@ -130,7 +130,7 @@ const Curriculum = () => {
                         <a href="https://www.coderhouse.com/certificados/6368a279e6706a000fb9f23e" className="item"
                             target="_blank" rel="noopener noreferrer"><img src="https://live.staticflickr.com/65535/52953570637_414d08d3b8_c.jpg" alt="CERTIFICADO REACT_JS" /></a>
                         <a  className="item"
-                            target="_blank" rel="noopener noreferrer"><img src="../public/assets/certificados/Certificado-FullStack_page-0001.jpg" alt="CERTIFICADO PROGRAMACIÓN FULL STACK" /></a>
+                            target="_blank" rel="noopener noreferrer"><img src="../../../public/assets/certificados/Certificado-FullStack_page-0001.jpg" alt="CERTIFICADO PROGRAMACIÓN FULL STACK" /></a>
                     </div>
                 </div>
             </div>
