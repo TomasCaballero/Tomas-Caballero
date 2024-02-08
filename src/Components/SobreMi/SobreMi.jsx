@@ -7,9 +7,10 @@ const SobreMi = () => {
     return (
         <div className='contenedorSobreMi'>
             <div className="presentacion">
-                <h2>
+                {/* <h2>
                     Soy un apasionado del desarrollo web con un enfoque especial en el front-end. Mi objetivo principal es crear interfaces atractivas y funcionales que brinden una gran experiencia de usuario. Aunque me especializo en el front-end, actualmente me estoy incursionando en el desarrollo back-end.
-                </h2>
+                </h2> */}
+                <h2>Soy un apasionado desarrollador web full-stack. Mi objetivo principal es proporcionar experiencias de usuario excepcionales. Recientemente, he fortalecido mis habilidades incursionando en el desarrollo back-end, lo que me permite abordar proyectos de manera integral. Con dominio del stack MERN y experiencia en SQL, busco constantemente oportunidades para aplicar mis conocimientos y contribuir al éxito de cada proyecto.</h2>
             </div>
             <div className="datosPersonalesEIntereses">
                 <div className="datosPersonales">

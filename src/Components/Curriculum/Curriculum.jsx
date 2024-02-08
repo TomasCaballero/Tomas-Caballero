@@ -1,6 +1,6 @@
 import './curriculum.css'
 import Transitions from '../../Transitions/Transitions'
-import { IconBrandBootstrap, IconBrandCss3, IconBrandFigma, IconBrandFirebase, IconBrandFramerMotion, IconBrandGit, IconBrandGithub, IconBrandHtml5, IconBrandJavascript, IconBrandMongodb, IconBrandMysql, IconBrandNodejs, IconBrandReact, IconBrandSass, IconBrandTypescript, IconBrandVscode, IconFileCv, IconSql } from '@tabler/icons-react'
+import { IconBrandBootstrap, IconBrandCss3, IconBrandFigma, IconBrandFirebase, IconBrandFramerMotion, IconBrandGit, IconBrandGithub, IconBrandHtml5, IconBrandJavascript, IconBrandMongodb, /*IconBrandMysql,*/ IconBrandNodejs, IconBrandReact, IconBrandSass, IconBrandTypescript, IconBrandVscode, IconFileCv, IconSql } from '@tabler/icons-react'
 
 
 // eslint-disable-next-line react-refresh/only-export-components
@@ -41,7 +41,7 @@ const Curriculum = () => {
                     </div>
 
                     <div className="lenguajes">
-                        <h3>Frameworks y librerias</h3>
+                        <h3>Frameworks y librerías</h3>
                         <div className="misLenguajes">
                             <div>
                                 <IconBrandBootstrap color='#8F1BFC' size={46} stroke={1}/>
@@ -59,10 +59,10 @@ const Curriculum = () => {
                                 <IconBrandFramerMotion color='#F009BB' size={46} stroke={1}/>
                                 <h4>FRAMER-MOTION</h4>
                             </div>
-                            <div>
+                            {/* <div>
                                 <IconBrandMysql color='#08668E' size={46} stroke={1}/>
                                 <h4>MYSQL</h4>
-                            </div>
+                            </div> */}
                             <div>
                                 <IconBrandMongodb color='#17AD55' size={46} stroke={1}/>
                                 <h4>MONGO DB</h4>
@@ -107,13 +107,13 @@ const Curriculum = () => {
                             <li><strong>CURSO DE DESARROLLO WEB</strong> - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_blackbg.png/1199px-Logo_blackbg.png" alt="Coderhouse" /></li>
                             <li><strong>CURSO DE JAVASCRIPT</strong> - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_blackbg.png/1199px-Logo_blackbg.png" alt="Coderhouse" /></li>
                             <li><strong>CURSO DE REACT JS</strong> - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_blackbg.png/1199px-Logo_blackbg.png" alt="Coderhouse" /></li>
+                            <li><strong>DIPLOMATURA EN PROGRAMACIÓN WEB FULL STACK</strong> - <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg" alt="UTN" className="utnImg" /></li>
                         </ul>
                     </div>
                     <div className="estudioss">
                         <h5>Estudios en curso</h5>
                         <ul>
-                            <li><strong>MASTER EN REACT JS</strong> - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/1920px-Udemy_logo.svg.png" alt="Udemy" /></li>
-                            <li><strong>DIPLOMATURA EN PROGRAMACIÓN WEB FULL STACK</strong> - <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg" alt="UTN" className="utnImg" /></li>
+                            <li><strong>ANALISTA DE SISTEMAS</strong> - <img src="./public/assets/logosInstitucion/ortlogo.png" alt="ORT" className='ortLogo'/></li>
                         </ul>
                     </div>
                 </div>
@@ -129,12 +129,14 @@ const Curriculum = () => {
                             target="_blank" rel="noopener noreferrer"><img src="https://live.staticflickr.com/65535/52953570627_734b56b225_c.jpg" alt="CERTIFICADO JS" /></a>
                         <a href="https://www.coderhouse.com/certificados/6368a279e6706a000fb9f23e" className="item"
                             target="_blank" rel="noopener noreferrer"><img src="https://live.staticflickr.com/65535/52953570637_414d08d3b8_c.jpg" alt="CERTIFICADO REACT_JS" /></a>
+                        <a  className="item"
+                            target="_blank" rel="noopener noreferrer"><img src="./public/assets/certificados/Certificado-FullStack_page-0001.jpg" alt="CERTIFICADO PROGRAMACIÓN FULL STACK" /></a>
                     </div>
                 </div>
             </div>
 
             <div className="cv">
-                <h3 className='titulo'>Descargar CV: <a href="https://drive.google.com/file/d/1FB7MWhn6hJmIvRyCWHi6M9nRI1p5jTsP/view?usp=sharing" download="CV_Tomas_Caballero" title="Descargar CV" target="_blank" rel="noopener noreferrer"><IconFileCv color='#F1F1F1' size={40} stroke={1}/></a></h3>
+                <h3 className='titulo'>Descargar CV: <a href="https://drive.google.com/file/d/1ixD6jHbR7y86usV1UEF_g3ZLJULELOkt/view?usp=sharing" download="CV_Tomas_Caballero" title="Descargar CV" target="_blank" rel="noopener noreferrer"><IconFileCv color='#F1F1F1' size={40} stroke={1}/></a></h3>
             </div>
         </div>
     )
