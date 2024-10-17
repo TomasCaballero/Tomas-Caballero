@@ -19,7 +19,7 @@ const Navbar = () => {
             </nav>
 
             <div className="redes">
-            <a href='https://www.linkedin.com/in/tomás-bautista-caballero/' target="_blank" rel="noopener noreferrer"><IconBrandLinkedin color='#086B9C' size={32} stroke={1}/></a>
+            <a href='https://www.linkedin.com/in/tomas-bautista-caballero/' target="_blank" rel="noopener noreferrer"><IconBrandLinkedin color='#086B9C' size={32} stroke={1}/></a>
                 <a href='https://github.com/TomasCaballero' target="_blank" rel="noopener noreferrer"><IconBrandGithub color='#F1F1F1' size={32} stroke={1}/></a>
                 <a href='https://wa.me/+541140720020' target="_blank" rel="noopener noreferrer"><IconBrandWhatsapp color='#2CD46B' size={32} stroke={1}/></a>
             </div>

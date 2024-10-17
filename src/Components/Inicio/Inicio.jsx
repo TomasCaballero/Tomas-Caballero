@@ -5,7 +5,9 @@ import './inicio.css';
 // eslint-disable-next-line react-refresh/only-export-components
 const Inicio = () => {
     const [video, setVideo] = useState('');
-    const urlVideo = 'https://live.staticflickr.com/video/53008925748/9bca33c7fb/1080p.mp4?s=eyJpIjo1MzAwODkyNTc0OCwiZSI6MTY5NTMyNTk2MCwicyI6IjgwNzkwZmRmYThkMWJiYThiMDRmZWE5Y2UxZTFmYjc1YjZmYTZjZDQiLCJ2IjoxfQ'
+    //const urlVideo = 'https://live.staticflickr.com/video/53008925748/9bca33c7fb/1080p.mp4?s=eyJpIjo1MzAwODkyNTc0OCwiZSI6MTY5NTMyNTk2MCwicyI6IjgwNzkwZmRmYThkMWJiYThiMDRmZWE5Y2UxZTFmYjc1YjZmYTZjZDQiLCJ2IjoxfQ'
+    const urlVideo = '/assets/videoInicio/video.mp4'
+
     useEffect(() => {
         setVideo(urlVideo);
         console.log(video)

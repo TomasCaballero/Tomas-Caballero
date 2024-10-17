@@ -1,6 +1,6 @@
 import './curriculum.css'
 import Transitions from '../../Transitions/Transitions'
-import { IconBrandBootstrap, IconBrandCss3, IconBrandFigma, IconBrandFirebase, IconBrandFramerMotion, IconBrandGit, IconBrandGithub, IconBrandHtml5, IconBrandJavascript, IconBrandMongodb, /*IconBrandMysql,*/ IconBrandNodejs, IconBrandReact, IconBrandSass, IconBrandTypescript, IconBrandVscode, IconFileCv, IconSql } from '@tabler/icons-react'
+import { IconBrandBootstrap, IconBrandCSharp, IconBrandCss3, IconBrandFigma, IconBrandFirebase, IconBrandFramerMotion, IconBrandGit, IconBrandGithub, IconBrandHtml5, IconBrandJavascript, IconBrandMongodb, /*IconBrandMysql,*/ IconBrandNodejs, IconBrandReact, IconBrandSass, IconBrandTypescript, IconBrandVisualStudio, IconBrandVscode, IconFileCv, IconSql } from '@tabler/icons-react'
 
 
 // eslint-disable-next-line react-refresh/only-export-components
@@ -37,6 +37,14 @@ const Curriculum = () => {
                                 <IconSql color='#085576' size={46} stroke={1}/>
                                 <h4>SQL</h4>
                             </div>
+                            <div>
+                                <img src="public/assets/iconosLenguajes/java.png" alt="" className='imgLenguaje'/>
+                                <h4>JAVA</h4>
+                            </div>
+                            <div>
+                                <IconBrandCSharp color='#9E559A' size={46} stroke={1}/>
+                                <h4>C SHARP</h4>
+                            </div>
                         </div>
                     </div>
 
@@ -67,6 +75,10 @@ const Curriculum = () => {
                                 <IconBrandMongodb color='#17AD55' size={46} stroke={1}/>
                                 <h4>MONGO DB</h4>
                             </div>
+                            {/* <div>
+                                <img src="public/assets/iconosLenguajes/dot_net.png" alt="" className='imgLenguaje'/>
+                                <h4>.NET</h4>
+                            </div> */}
                             <div>
                                 <IconBrandFirebase color='#FFA917' size={46} stroke={1}/>
                                 <h4>FIREBASE</h4>
@@ -90,6 +102,10 @@ const Curriculum = () => {
                                 <h4>VSCODE</h4>
                             </div>
                             <div>
+                                <IconBrandVisualStudio color='#6B3596' size={46} stroke={1}/>
+                                <h4>VISUAL STUDIO</h4>
+                            </div>
+                            <div>
                                 <IconBrandFigma color='#FF7667' size={46} stroke={1}/>
                                 <h4>FIGMA</h4>
                             </div>
@@ -108,6 +124,7 @@ const Curriculum = () => {
                             <li><strong>CURSO DE JAVASCRIPT</strong> - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_blackbg.png/1199px-Logo_blackbg.png" alt="Coderhouse" /></li>
                             <li><strong>CURSO DE REACT JS</strong> - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_blackbg.png/1199px-Logo_blackbg.png" alt="Coderhouse" /></li>
                             <li><strong>DIPLOMATURA EN PROGRAMACIÓN WEB FULL STACK</strong> - <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg" alt="UTN" className="utnImg" /></li>
+                            <li><strong>TESTING MANUAL</strong> - <img src="public/assets/logosInstitucion/icl.jpg" alt="UTN" className="iclImg" /></li>
                         </ul>
                     </div>
                     <div className="estudioss">
@@ -131,12 +148,14 @@ const Curriculum = () => {
                             target="_blank" rel="noopener noreferrer"><img src="https://live.staticflickr.com/65535/52953570637_414d08d3b8_c.jpg" alt="CERTIFICADO REACT_JS" /></a>
                         <a  className="item"
                             target="_blank" rel="noopener noreferrer"><img src="https://live.staticflickr.com/65535/53516536106_caa2d70498_h.jpg" alt="CERTIFICADO PROGRAMACIÓN FULL STACK" /></a>
+                            <a  className="item"
+                            target="_blank" rel="noopener noreferrer"><img src="public/assets/certificados/Testing.jpg" alt="CERTIFICADO TESTING MANUAL" /></a>
                     </div>
                 </div>
             </div>
 
             <div className="cv">
-                <h3 className='titulo'>Descargar CV: <a href="https://drive.google.com/file/d/1ixD6jHbR7y86usV1UEF_g3ZLJULELOkt/view?usp=sharing" download="CV_Tomas_Caballero" title="Descargar CV" target="_blank" rel="noopener noreferrer"><IconFileCv color='#F1F1F1' size={40} stroke={1}/></a></h3>
+                <h3 className='titulo'>Descargar CV: <a href="https://drive.google.com/file/d/1LtGO4PyMc4rQmcR5wJbVJmZH1X1zc2fV/view?usp=sharing" download="CV_Tomas_Caballero" title="Descargar CV" target="_blank" rel="noopener noreferrer"><IconFileCv color='#F1F1F1' size={40} stroke={1}/></a></h3>
             </div>
         </div>
     )

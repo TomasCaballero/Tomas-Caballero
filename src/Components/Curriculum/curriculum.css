@@ -53,6 +53,10 @@
     padding: 3px;
     text-align: center;
 }
+.contenedorCurriculum .habilidades .lenguajes .misLenguajes div .imgLenguaje{
+    width: 40px;
+    margin-bottom: 7px;
+}
 .contenedorCurriculum .habilidades .lenguajes .misLenguajes div h4 {
     font-size: 12px;
 }
@@ -118,7 +122,12 @@
     top: 8px;
     width: 25px;
 }
-
+.contenedorCurriculum .estudios .misEstudios .estudioss ul li .iclImg{
+    position: relative;
+    top: 8px;
+    width: 25px;
+    border-radius: 50%;
+}
 .contenedorCurriculum .estudios .misEstudios .estudioss ul li .ortLogo {
     position: relative;
     top: 10px;
