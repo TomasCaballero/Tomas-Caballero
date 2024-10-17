@@ -38,7 +38,7 @@ const Curriculum = () => {
                                 <h4>SQL</h4>
                             </div>
                             <div>
-                                <img src="public/assets/iconosLenguajes/java.png" alt="" className='imgLenguaje'/>
+                                <img src="/assets/iconosLenguajes/java.png" alt="" className='imgLenguaje'/>
                                 <h4>JAVA</h4>
                             </div>
                             <div>
@@ -124,7 +124,7 @@ const Curriculum = () => {
                             <li><strong>CURSO DE JAVASCRIPT</strong> - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_blackbg.png/1199px-Logo_blackbg.png" alt="Coderhouse" /></li>
                             <li><strong>CURSO DE REACT JS</strong> - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_blackbg.png/1199px-Logo_blackbg.png" alt="Coderhouse" /></li>
                             <li><strong>DIPLOMATURA EN PROGRAMACIÓN WEB FULL STACK</strong> - <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg" alt="UTN" className="utnImg" /></li>
-                            <li><strong>TESTING MANUAL</strong> - <img src="public/assets/logosInstitucion/icl.jpg" alt="UTN" className="iclImg" /></li>
+                            <li><strong>TESTING MANUAL</strong> - <img src="/assets/logosInstitucion/icl.jpg" alt="UTN" className="iclImg" /></li>
                         </ul>
                     </div>
                     <div className="estudioss">
@@ -149,7 +149,7 @@ const Curriculum = () => {
                         <a  className="item"
                             target="_blank" rel="noopener noreferrer"><img src="https://live.staticflickr.com/65535/53516536106_caa2d70498_h.jpg" alt="CERTIFICADO PROGRAMACIÓN FULL STACK" /></a>
                             <a  className="item"
-                            target="_blank" rel="noopener noreferrer"><img src="public/assets/certificados/Testing.jpg" alt="CERTIFICADO TESTING MANUAL" /></a>
+                            target="_blank" rel="noopener noreferrer"><img src="/assets/certificados/Testing.jpg" alt="CERTIFICADO TESTING MANUAL" /></a>
                     </div>
                 </div>
             </div>
