@@ -13,7 +13,7 @@
 .contenedorInicio .contenedorVideo{
     position: relative;
     width: 100%;
-    height: 100dvh;
+    height: 100vh;
 }
 .contenedorInicio .contenedorVideo video{
     position: absolute;
